@@ -1,0 +1,127 @@
+Query         6xmsA_ignorechain
+Match_columns 1091
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Sat Feb 25 10:57:53 2023
+Command       /home/xiety/software/hh-suite/build/bin/hhalign -i PDBs_tm_common_res_dis/6xmsA_ignorechain.fasta -t PDBs_tm_common_res_dis/6xmuA_ignorechain.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6xmuA_ignorechain              100.0   0E+00   0E+00 4291.9   0.0 1087    1-1091    1-1090(1090)
+
+No 1
+>6xmuA_ignorechain
+Probab=100.00  E-value=0  Score=4291.87  Aligned_cols=1087  Identities=100%  Similarity=1.464  Sum_probs=1085.1  Template_Neff=1.000
+
+Q 6xmsA_ignorech    1 KSFVSSPIVRDSTLLVPKSLIAKPYVLPFFPLYATFAQLYFEWTFVYLGTLVSLNILVMLMPAWNVKIKAKFNYSTTKNV   80 (1091)
+Q Consensus         1 ksfvsspivrdstllvpksliakpyvlpffplyatfaqlyfewtfvylgtlvslnilvmlmpawnvkikakfnysttknv   80 (1091)
+                      |||||||||||||++||||+|||||||||||+||||||+|||||||||||||||||||||||||||||||||||||||||
+T Consensus         1 ksfvsspivrdstllvpksliakpyvlpffplyatfaqlyfewtfvylgtlvslnilvmlmpawnvkikakfnysttknv   80 (1090)
+T 6xmuA_ignorech    1 KSFVSSPIVRDSTLLVPKSLIAKPYVLPFFPLYATFAQLYFEWTFVYLGTLVSLNILVMLMPAWNVKIKAKFNYSTTKNV   80 (1090)
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech   81 NEATHILIYTTPNNGSDGIVEIQRVTEAGSLQTFFQFQKKRFLWHENEQVFSSPKFLVDESPKIGDFQKCKGHSGDLTHL  160 (1091)
+Q Consensus        81 neathiliyttpnngsdgiveiqrvteagslqtffqfqkkrflwheneqvfsspkflvdespkigdfqkckghsgdlthl  160 (1091)
+                      ||||||||||||||||||||||||||||||||||||||||||+|||||||||||||+|||||||||||||||||||||||
+T Consensus        81 neathiliyttpnngsdgiveiqrvteagslqtffqfqkkrflwheneqvfsspkflvdespkigdfqkckghsgdlthl  160 (1090)
+T 6xmuA_ignorech   81 NEATHILIYTTPNNGSDGIVEIQRVTEAGSLQTFFQFQKKRFLWHENEQVFSSPKFLVDESPKIGDFQKCKGHSGDLTHL  160 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  161 KRLYGENSFDIPIPTFMELFKEHAVAPLFVFQVFCVALWLLDEFWYYSLFNLFMIISMEAAAVFQRLTALKEFRTMGIKP  240 (1091)
+Q Consensus       161 krlygensfdipiptfmelfkehavaplfvfqvfcvalwlldefwyyslfnlfmiismeaaavfqrltalkefrtmgikp  240 (1091)
+                      ||||||||||||||||||+||||+|||+||||||||||||+|||||||+||+||||||||||||||||||||||||||||
+T Consensus       161 krlygensfdipiptfmelfkehavaplfvfqvfcvalwlldefwyyslfnlfmiismeaaavfqrltalkefrtmgikp  240 (1090)
+T 6xmuA_ignorech  161 KRLYGENSFDIPIPTFMELFKEHAVAPLFVFQVFCVALWLLDEFWYYSLFNLFMIISMEAAAVFQRLTALKEFRTMGIKP  240 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  241 YTINVFRNKKWVALQTNELLPMDLVSITRTAEESAIPCDLILLDGSAIVNEAMLSGESTPLLKESIKLRPSEDNLQLDGV  320 (1091)
+Q Consensus       241 ytinvfrnkkwvalqtnellpmdlvsitrtaeesaipcdlilldgsaivneamlsgestpllkesiklrpsednlqldgv  320 (1091)
+                      |||||||||||||+||||++||||||||||||||+|||||||+|||||||||||||||||+||||||+||||||||||||
+T Consensus       241 ytinvfrnkkwvalqtnellpmdlvsitrtaeesaipcdlilldgsaivneamlsgestpllkesiklrpsednlqldgv  320 (1090)
+T 6xmuA_ignorech  241 YTINVFRNKKWVALQTNELLPMDLVSITRTAEESAIPCDLILLDGSAIVNEAMLSGESTPLLKESIKLRPSEDNLQLDGV  320 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  321 DKIAVLHGGTKALQVTPPEHKSDIPPPPDGGALAIVTKTGFETSQGSLVRVMIYSAERVSVDNKEALMFILFLLIFAVIA  400 (1091)
+Q Consensus       321 dkiavlhggtkalqvtppehksdippppdggalaivtktgfetsqgslvrvmiysaervsvdnkealmfilfllifavia  400 (1091)
+                      ||||||||||||+||||||||||||||||||||||||||||||||||+|||||||||    |||||||||||||||||||
+T Consensus       321 dkiavlhggtkalqvtppehksdippppdggalaivtktgfetsqgslvrvmiysae----dnkealmfilfllifavia  396 (1090)
+T 6xmuA_ignorech  321 DKIAVLHGGTKALQVTPPEHKSDIPPPPDGGALAIVTKTGFETSQGSLVRVMIYSAE----DNKEALMFILFLLIFAVIA  396 (1090)
+Confidence            999999999999999999999999999999999999999999999999999999998    8999999999999999999
+
+
+Q 6xmsA_ignorech  401 SWYVWVEGTKMGRIQSKLILDCILIITSVVPPELPMELTMAVNSSLAALAKFYVYCTEPFRIPFAGRIDVCCFDKTGTLT  480 (1091)
+Q Consensus       401 swyvwvegtkmgriqsklildciliitsvvppelpmeltmavnsslaalakfyvyctepfripfagridvccfdktgtlt  480 (1091)
+                      |||||||||||||||||+|+||||||||||||||||||||||||||||||||||||||||||||+|||||||||||||||
+T Consensus       397 swyvwvegtkmgriqsklildciliitsvvppelpmeltmavnsslaalakfyvyctepfripfagridvccfdktgtlt  476 (1090)
+T 6xmuA_ignorech  397 SWYVWVEGTKMGRIQSKLILDCILIITSVVPPELPMELTMAVNSSLAALAKFYVYCTEPFRIPFAGRIDVCCFDKTGTLT  476 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  481 GEDLVFEGLAGISADSENIRHLYSAAEAPESTILVIGAAHALVKLEDGDIVGDPMEKATLKAVGWAVERKNSNYREGTGK  560 (1091)
+Q Consensus       481 gedlvfeglagisadsenirhlysaaeapestilvigaahalvkledgdivgdpmekatlkavgwaverknsnyregtgk  560 (1091)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus       477 gedlvfeglagisadsenirhlysaaeapestilvigaahalvkledgdivgdpmekatlkavgwaverknsnyregtgk  556 (1090)
+T 6xmuA_ignorech  477 GEDLVFEGLAGISADSENIRHLYSAAEAPESTILVIGAAHALVKLEDGDIVGDPMEKATLKAVGWAVERKNSNYREGTGK  556 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  561 LDIIRRFQFSSALKRSASIASHNDALFAAVKGAPETIRERLSDIPKNYDEIYKSFTRSGSRVLALASKSLPKDLNRDDVE  640 (1091)
+Q Consensus       561 ldiirrfqfssalkrsasiashndalfaavkgapetirerlsdipknydeiyksftrsgsrvlalaskslpkdlnrddve  640 (1091)
+                      +|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||+|||||||||||||||
+T Consensus       557 ldiirrfqfssalkrsasiashndalfaavkgapetirerlsdipknydeiyksftrsgsrvlalaskslpkdlnrddve  636 (1090)
+T 6xmuA_ignorech  557 LDIIRRFQFSSALKRSASIASHNDALFAAVKGAPETIRERLSDIPKNYDEIYKSFTRSGSRVLALASKSLPKDLNRDDVE  636 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  641 SELTFNGFLIFHCPLKDDAIETIKMLNESSHRSIMITGDNPLTAVHVAKEVGIVFGETLILDRAGKSDDNQLLFRDVEET  720 (1091)
+Q Consensus       641 seltfngflifhcplkddaietikmlnesshrsimitgdnpltavhvakevgivfgetlildragksddnqllfrdveet  720 (1091)
+                      ||+|||||||||||+||||||||||||||||||||||||||+||||||||||||||||+||||||||||||++|||||||
+T Consensus       637 seltfngflifhcplkddaietikmlnesshrsimitgdnpltavhvakevgivfgetlildragksddnqllfrdveet  716 (1090)
+T 6xmuA_ignorech  637 SELTFNGFLIFHCPLKDDAIETIKMLNESSHRSIMITGDNPLTAVHVAKEVGIVFGETLILDRAGKSDDNQLLFRDVEET  716 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  721 VSIPFDPSKDTFDHSKLFDRYDIAVTGYALNALEGHSQLRDLLRHTWVYARVSPSQKEFLLNTLKDMGYQTLMCGDGTND  800 (1091)
+Q Consensus       721 vsipfdpskdtfdhsklfdrydiavtgyalnaleghsqlrdllrhtwvyarvspsqkefllntlkdmgyqtlmcgdgtnd  800 (1091)
+                      |||||||||||||||||||||||+||||||||||||||||||||||||||||||||||||+|||||||||||||||||||
+T Consensus       717 vsipfdpskdtfdhsklfdrydiavtgyalnaleghsqlrdllrhtwvyarvspsqkefllntlkdmgyqtlmcgdgtnd  796 (1090)
+T 6xmuA_ignorech  717 VSIPFDPSKDTFDHSKLFDRYDIAVTGYALNALEGHSQLRDLLRHTWVYARVSPSQKEFLLNTLKDMGYQTLMCGDGTND  796 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  801 VGALKQAHVGIALLNGTEEGLKKLGEQRRLE---ALKLGDASCAAPFTSKLANVSAVTNIIRQGRCALVNTIQMYKILAL  877 (1091)
+Q Consensus       801 vgalkqahvgiallngteeglkklgeqrrle---alklgdascaapftsklanvsavtniirqgrcalvntiqmykilal  877 (1091)
+                      |||||||||||||||||||||||||||||+|   |||+|||||||||||||||||||||||||||||||||||||||||+
+T Consensus       797 vgalkqahvgiallngteeglkklgeqrrlegapalklgdascaapftsklanvsavtniirqgrcalvntiqmykilal  876 (1090)
+T 6xmuA_ignorech  797 VGALKQAHVGIALLNGTEEGLKKLGEQRRLEGAPALKLGDASCAAPFTSKLANVSAVTNIIRQGRCALVNTIQMYKILAL  876 (1090)
+Confidence            9999999999999999999999999999998   7999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  878 NCLISAYSLSIIYMAGVKFGDGQATVSGLLLSVCFLSISRGKPLEKLSKQRPQSGIFNVYIMGSILSQFAVHIATLVYIT  957 (1091)
+Q Consensus       878 nclisayslsiiymagvkfgdgqatvsglllsvcflsisrgkpleklskqrpqsgifnvyimgsilsqfavhiatlvyit  957 (1091)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus       877 nclisayslsiiymagvkfgdgqatvsglllsvcflsisrgkpleklskqrpqsgifnvyimgsilsqfavhiatlvyit  956 (1090)
+T 6xmuA_ignorech  877 NCLISAYSLSIIYMAGVKFGDGQATVSGLLLSVCFLSISRGKPLEKLSKQRPQSGIFNVYIMGSILSQFAVHIATLVYIT  956 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech  958 TEIYKLEPREPQVDLEKEFAPSLLNTGIFIIQLVQQVSTFAVNYQGEPFRENIRSNKGMYYGLLGVTGLALASATEFLPE 1037 (1091)
+Q Consensus       958 teiykleprepqvdlekefapsllntgifiiqlvqqvstfavnyqgepfrenirsnkgmyygllgvtglalasateflpe 1037 (1091)
+                      |||||||||||||||||||+|||+||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus       957 teiykleprepqvdlekefapsllntgifiiqlvqqvstfavnyqgepfrenirsnkgmyygllgvtglalasateflpe 1036 (1090)
+T 6xmuA_ignorech  957 TEIYKLEPREPQVDLEKEFAPSLLNTGIFIIQLVQQVSTFAVNYQGEPFRENIRSNKGMYYGLLGVTGLALASATEFLPE 1036 (1090)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q 6xmsA_ignorech 1038 LNEAMKFVPMTDDFKIKLTLTLLLDFFGSWGVEHFFKFFFMDDKPSDISVQQVK 1091 (1091)
+Q Consensus      1038 lneamkfvpmtddfkikltltllldffgswgvehffkfffmddkpsdisvqqvk 1091 (1091)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus      1037 lneamkfvpmtddfkikltltllldffgswgvehffkfffmddkpsdisvqqvk 1090 (1090)
+T 6xmuA_ignorech 1037 LNEAMKFVPMTDDFKIKLTLTLLLDFFGSWGVEHFFKFFFMDDKPSDISVQQVK 1090 (1090)
+Confidence            999999999999999999999999999999999999999999999999999997
+
+
