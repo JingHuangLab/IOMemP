@@ -1,0 +1,37 @@
+diff --git a/scripts/ClusterMSA.py b/scripts/ClusterMSA.py
+index 6b688b7..fc69eb7 100644
+--- a/scripts/ClusterMSA.py
++++ b/scripts/ClusterMSA.py
+@@ -51,12 +51,13 @@ if __name__=='__main__':
+     p.add_argument('--resample', action='store_true', help='If included, will resample the original MSA with replacement before writing.')
+     p.add_argument("--gap_cutoff", action='store', type=float, default=0.25, help='Remove sequences with gaps representing more than this frac of seq.')
+     p.add_argument('--min_eps', action='store',default=3, help='Min epsilon value to scan for DBSCAN (Default 3).')
+-    p.add_argument('--max_eps', action='store',default=20, help='Max epsilon value to scan for DBSCAN (Default 20).')
++    p.add_argument('--max_eps', action='store',default=20, type=float, help='Max epsilon value to scan for DBSCAN (Default 20).')
+     p.add_argument('--eps_step', action='store',default=.5, help='step for epsilon scan for DBSCAN (Default 0.5).')
+     p.add_argument('--min_samples', action='store',default=3, help='Default min_samples for DBSCAN (Default 3, recommended no lower than that).')
+ 
+     p.add_argument('--run_PCA', action='store_true', help='Run PCA on one-hot embedding of sequences and store in output_cluster_metadata.tsv')
+     p.add_argument('--run_TSNE', action='store_true', help='Run TSNE on one-hot embedding of sequences and store in output_cluster_metadata.tsv')
++    p.add_argument('--breakEPS', action='store', type=int, default=10, help='Max epsilon value with only one cluster found')
+ 
+     args = p.parse_args()
+ 
+@@ -71,7 +72,7 @@ if __name__=='__main__':
+         import seaborn as sns
+ 
+     os.makedirs(args.o, exist_ok=True)
+-    f = open("%s.log"% args.keyword, 'w')
++    f = open(args.o+"/%s.log"% args.keyword, 'w')
+     IDs, seqs = load_fasta(args.i)
+ 
+     seqs = [''.join([x for x in s if x.isupper() or x=='-']) for s in seqs] # remove lowercase letters in alignment
+@@ -112,7 +113,7 @@ if __name__=='__main__':
+             n_not_clustered = len(clustering.labels_[np.where(clustering.labels_==-1)])
+             lprint('%.2f\t%d\t%d' % (eps, n_clust, n_not_clustered),f)
+             n_clusters.append(n_clust)
+-            if eps>10 and n_clust==1:
++            if eps>args.breakEPS and n_clust==1:
+                 break
+ 
+         eps_to_select = eps_test_vals[np.argmax(n_clusters)]

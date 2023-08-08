@@ -62,14 +62,14 @@ if __name__ == "__main__":
 
     if args.proportion:
         in_out_pairs = []
-        with open('/home/xiety/projects/coevo2struc/protein_data/output/mostdiff_files_seq_cluster70_manu_sel_in_out.txt') as handle:
+        with open('../output/mostdiff_files_seq_cluster70_manu_sel_in_out.txt') as handle:
             for line in handle.readlines():
                 in_out_pair = line.split()[:2]
                 # in_out_pairs.append(in_out_pair[0].upper())
                 # in_out_pairs.append(in_out_pair[1].upper())
                 in_out_pairs.append([in_out_pair[0].upper(), in_out_pair[1].upper()])
 
-        with open('/home/xiety/projects/coevo2struc/protein_data/output/tm_common_res_dis.pickle', 'rb') as handle:
+        with open('../output/tm_common_res_dis.pickle', 'rb') as handle:
             dic_distance = pickle.load(handle)
 
         # record the number of contacts and L
@@ -162,7 +162,7 @@ if __name__ == "__main__":
         result_path = '../output/seq_dis_' + args.type + '.npy'
         num_contacts_over_L_path = '../output/num_contacts_over_L.csv'
         if not os.path.exists(result_path) or not os.path.exists(num_contacts_over_L_path) or args.force:
-            with open('/home/xiety/projects/coevo2struc/protein_data/output/tm_common_res_dis.pickle', 'rb') as handle:
+            with open('../output/tm_common_res_dis.pickle', 'rb') as handle:
                 dic_distance = pickle.load(handle)
             for pair in dic_distance:
                 if pair == "7BH2_B+5MRW_F": continue

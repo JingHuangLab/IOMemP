@@ -1,0 +1,17 @@
+diff --git alphafold/data/pipeline.py alphafold/data/pipeline.py
+index 1f643da..64cc05c 100644
+--- alphafold/data/pipeline.py
++++ alphafold/data/pipeline.py
+@@ -133,7 +133,8 @@ class DataPipeline:
+     else:
+       self.hhblits_bfd_uniclust_runner = hhblits.HHBlits(
+           binary_path=hhblits_binary_path,
+-          databases=[bfd_database_path, uniclust30_database_path])
++          databases=[bfd_database_path])
++          #databases=[bfd_database_path, uniclust30_database_path])
+     self.jackhmmer_mgnify_runner = jackhmmer.Jackhmmer(
+         binary_path=jackhmmer_binary_path,
+         database_path=mgnify_database_path)
+-- 
+2.16.5
+

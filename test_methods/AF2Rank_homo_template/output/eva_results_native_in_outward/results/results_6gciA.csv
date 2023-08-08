@@ -1,0 +1,3 @@
+target,decoy_id,decoy_path,rmsd,rosettascore,gdt_ts,tmscore,danscore,output_path,rmsd_out,tm_diff,tm_out,plddt,ptm
+6gciA,native,./decoy_set/native_pdbs/6gciA_ignorechain.cif,0,-1,1,1,-1,./eva_results3/pdbs/6gciA_na.pdb,1.136013150215149,0.97378,0.97378,91.75846188896976,0.8458786586086402
+6gciA,4c9jB_ignorechain.cif,./decoy_set/decoy_pdbs/6gciA/4c9jB_ignorechain.cif,-1,-1,-1,-1,-1,./eva_results3/pdbs/6gciA_4c9jB_ignorechain.pdb,6.2999091148376465,0.94665,0.63943,86.36368403081612,0.8423326774530786
