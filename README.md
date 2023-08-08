@@ -38,3 +38,6 @@ We add an alignment function to [AF2Rank](https://github.com/jproney/AF2Rank) (r
 
 We also make AF2Rank_homo_template accept multiple templates and predict multiple times for models 1-5, so that we can AlphaFold predictions under different input configurations. 
 
+## Reference
+
+Tengyu Xie and Jing Huang. Can Protein Structure Prediction Methods Capture Alternative Conformations of Membrane Proteins? bioRxiv 2023.08.04.552045; doi: https://doi.org/10.1101/2023.08.04.552045.
